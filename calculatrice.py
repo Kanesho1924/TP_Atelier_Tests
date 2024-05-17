@@ -41,6 +41,7 @@ class Calculator():
             elif "/" in self.text:
                 self.Div()
         except:
+            self.entry.set("ERROR")
             self.init()
 
     def Plus(self): # Addition
